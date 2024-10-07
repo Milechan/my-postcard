@@ -1,0 +1,47 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.postcard {
+	background: white;
+	width: 480px;
+	height: 320px;
+	margin: auto;
+	padding: 10px;
+	font-family: "Playfair Display", cursive;
+}
+.postcard-header{
+display: flex;
+}
+.postcard-body{
+    display: flex;
+}
+h1{
+    width: 350px;
+}
+img{
+    height:60px;
+    width:60px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.izquierda , .derecha {
+    padding:5px;
+    /* width:240px; */
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+body{
+    background-color: black;
+
+}
+.postcard-footer{
+    text-align: center;
+}
+input{
+    height:25px;
+    margin-bottom: 5px;
+}
